@@ -37,7 +37,7 @@ ol {
 }
 
 ol a:hover {
-    text-decoration: none;
+    text-decoration: none !important;
     overflow: hidden;
     
 }
@@ -130,25 +130,15 @@ h5 {
 /* project start here  */
 
 .proj-wrap {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* margin:12px 55px;
-     */
-     margin-left: 325px  !important;
+    margin-left: 325px;
     padding-top:25px;
-    /* text-align: center; */
+    
 }
 
-/* .proj-desc {
-    width:45%;
-    text-align: justify !important;
-} */
 
 .proj-desc {
-    /* font-family: sans-serif; */
     margin: 0 auto;
     margin-top: 12px;
-    /* text-align: center !important; */
 }
 
 .proj-title {
@@ -239,13 +229,12 @@ h5 {
     .about-desc {
         width:50% !important;
         left:40% !important;
-        /* margin-right: 0px !important; */
     }
+    
     .mail a,
     .phone a {
         width:70% !important;
         font-size: 15px !important;
-        /* margin-left: 0px !important; */
     }
 }
 
@@ -304,7 +293,17 @@ ol a:hover li {
 }
 
 @media (min-width:1201px) and (max-width:1480px) {
-
+    ol a:hover {
+        text-decoration: none;
+        overflow: hidden;
+        
+    }
+    ol a:hover li {
+        transform: scale(1.5);
+        transition: 1.5s;
+        color:aqua;
+        overflow: hidden;
+    }
     .proj-wrap {
         margin-left: 325px;
     }
