@@ -262,11 +262,11 @@ ol a:hover li {
 .proj-wrap {
     margin-left: 75px !important;
 } 
- .mail a,
- .phone a {
+  .mail a,
+  .phone a {
     font-size: 18px !important;
      margin-left: 0px !important;
- }
+  }
 }
 
 @media (min-width:805px) and (max-width:1200px){
